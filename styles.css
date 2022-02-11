@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #437fc7;
+    font-family: sans-serif;
+}
+h1{
+    color: #edf6ff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input{
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid #86b2e7;
+    cursor: pointer;
+    padding-left: 5px;
+    color: #023b7c;
+    font-weight: 400;
+    display: block;
+    outline: none; 
+}
+
+
+label{
+    font-size: 1rem;
+}
+
+.container{
+    background-color: #edf6ff;
+    color: #5399f0;
+    margin: 10px auto;
+    padding: 5px 5px 5px 5px;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+
+.celsius, .fahrenheit{
+    justify-self: center;
+    align-self: center;
+}
+
